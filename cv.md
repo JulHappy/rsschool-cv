@@ -6,7 +6,7 @@
 + **My mobile phone:** +375295678947
 + **My e-mail:** derzkijangel@mail.ru
 + **My Linkedin:** http://linkedin.com
-+ **My Skype:** derzkijangel
++ **My Skype:** derzkijangel@mail.ru
 *** 
 ## Summary
 ## Work experience
