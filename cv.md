@@ -1,5 +1,3 @@
-# rsschool-cv
-***
 ![foto2](https://user-images.githubusercontent.com/112258660/206675498-41838444-e736-4b72-bef4-67812dd041c2.jpg "фото")
 ***
 # Yuliya Kryvasheyeva        
