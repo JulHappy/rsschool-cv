@@ -2,10 +2,10 @@
 ***
 # Yuliya Kryvasheyeva        
 *** 
-+ **My address:** Voronyanskogo st., 50, 220007 Minsk (Belarus)
-+ **My mobile phone:** +375295678947
++ **My address:** Minsk, Belarus
++ **My diskord:** @JulHappy
 + **My e-mail:** derzkijangel@mail.ru
-+ **My Linkedin:** http://linkedin.com
++ **My Github:** @JulHappy
 + **My Skype:** derzkijangel
 *** 
 ## Summary
