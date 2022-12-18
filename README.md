@@ -1,1 +1,1 @@
-https://github.com/JulHappy/rsschool-cv/blob/rsschool-cv-html/index.html
+https://JulHappy.github.io/rsschool-cv/cv
