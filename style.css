@@ -11,6 +11,7 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
+
 .main {
     display: flex;
 }
@@ -29,6 +30,10 @@ body {
 h1 {
     text-align: center;
 }
+h4 {
+    text-align: center;
+}
 header {
     width: 100%;
-}
+    background-color: rgb(245, 248, 70);
+     }
