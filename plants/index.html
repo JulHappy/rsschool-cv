@@ -2,20 +2,21 @@
 <html lang="en">
   
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" type="text/css">
   <title>Plants</title>
 </head>
   
 <body>
-  <header>
-    <img class="logo" src="" alt="photo" width="200" height="261">
-    <p>Plants</p>
-    <nav>
-      <ul class="nav">
+
+  <header class="header">
+    <div class="wrapper">
+     <img class="logo" src="logo.svg" alt="plants">
+      <nav class="hearder__navigation">
+       <ul class="navigation">
         <li> 
-          <a id="hom" href="#home">Home</a>
+          <a id="home" href="#home">Home</a>
         </li>
         <li>
           <a href="#about">About us</a>
@@ -29,18 +30,118 @@
         <li>
           <a href="#contacts">Contacts</a>    
         </li>
-      </ul>
-    </nav>
+       </ul>
+      </nav>
+    </div>
   </header>
-  
-  <main class="main">
 
-   <section class="sec1">
-    <img class="photo" src="https://user-images.githubusercontent.com/112258660/206895605-cc202a0e-529f-48e6-8ce3-6e79256bccf3.jpg" alt="photo" width="200" height="261">
-    <h1>Yuliya Kryvasheyeva</h1>
-    <h4>Junior Front-end Developer</h4>
+  <main>
+<section class="welcome">
+<div class="wrapper">
+  <div class="welcom_content">
+    <h1>We grow <span id="pl">plants</span> and give you oxygen</h1>
+  </div>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+  <div class="welcome_button">
+    <button>LEARN MORE</button>
+  </div>
+  <img class="leafs" src="leafs.svg" alt="leafs">
+</div>
+</section>
 
-  <div id="contacts">
+<section class="about">
+  <div class="wrapper">
+    <div class="about_content">
+      <h3>We are <span id="ab">professional experienced</span> gardeners</h3>
+    </div>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      <img class="houseplant1" src="houseplant 1.svg" alt="houseplant1">
+  </div>
+  </section>
+ 
+  <section class="services">
+    <div class="wrapper">
+      
+      <div class="services_content">
+        <h3>Service and our projects</h3>
+      </div>
+
+      <div class="services_button">
+        <button>Gardens</button>
+        <button>Lawn</button>
+        <button>Planting</button>
+      </div>
+
+    <div class="layout-3-column">
+     <div clsss="tool">
+      <img class="first" src="first.jpg" alt="first">
+      <h4>Garden care</h4>
+      <p>Lorem Ipsum has been the industry</p>
+     </div>
+     <div clsss="tool">
+      <img class="first" src="first2.jpg" alt="first2">
+      <h4>Planting</h4>
+      <p>Lorem Ipsum has been the industry</p>
+     </div>
+     <div clsss="tool">
+      <img class="first" src="first3.jpg" alt="first3">
+      <h4>Lawn care</h4>
+      <p>Lorem Ipsum has been the industry</p>
+     </div>
+    </div>
+
+    <div class="layout-3-column">
+      <div clsss="tool">
+       <img class="first" src="first4.jpg" alt="first4">
+       <h4>Planting</h4>
+       <p>Lorem Ipsum has been the industry</p>
+      </div>
+      <div clsss="tool">
+       <img class="first" src="first5.jpg" alt="first5">
+       <h4>Garden care</h4>
+       <p>Lorem Ipsum has been the industry</p>
+      </div>
+      <div clsss="tool">
+       <img class="first" src="first6.jpg" alt="first6">
+       <h4>Planting</h4>
+       <p>Lorem Ipsum has been the industry</p>
+      </div>
+     </div>
+
+    </section>
+
+    <section class="prices">
+      <h2>Prices</h2>
+      <form>
+        <label>
+         <input type="radio" name="quation" value="yes">
+         Basics 
+         </label>
+        <br>
+        <label>
+         <input type="radio" name="quation" value="yes"> 
+         Standard
+         </label>
+        <br>
+        <label>
+          <input type="radio" name="quation" value="yes">
+          Pro care 
+          </label>
+      </form>
+      <h2>Our best <span id="gar">gardeners</span> are ready to help you</h2>
+
+    </section>
+
+    </main>
+
+
+
+
+
+
+
+
+<div id="contacts">
   <h2>Contacts</h2>
   </div>
   <ul>
@@ -110,9 +211,3 @@
   </body>
   
 </html>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Secur
