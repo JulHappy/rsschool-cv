@@ -9,9 +9,17 @@ h1 {
     text-align: center;
 }
 header {
-    width: 100%;
+    width: 1440px;
+    height: 134px;
     background-color: #F5F5F5;
-     }
+        }
+.logo{
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
 #home {
     color:red;
 }
