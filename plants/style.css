@@ -6,66 +6,84 @@ body{
     width: 1440px;
 }
 h1 {
-position: absolute;
-width: 549px;
-height: 101px;
-left: 782px;
-top: 98px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 45px;
-line-height: 50px;
-
-color: #717171;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 3px;    
+    color: #717171;
 }
 header {
     max-width: 1440px;
     height: 134px;
     background-color: #F5F5F5;
+    margin-bottom: 12px;
            }
 
 .conteiner {
-    max-width: 1220px;
+    max-width: 1229px;
     height: 50px;
     margin: 0 auto;
     display: flex;
 }
 .logo-wrapper{
-    width:50%;
+    width: 60%;
     padding-top: 52px;
     display:inline-block;
 }
 .nav-bar{
-       width: 50%;
+       width: 40%;
        padding-top: 52px;
        display:inline-block;
+      }
+.hearder__navigation{
+    justify-content: end;
 }
-
 .navigation{
     width: 452px;
     height: 50px;
     display: flex;
     justify-content: space-around;
     text-align: right;
+    margin-top: 8px;
 }
-    
+#home{
+    margin-left: 16px;
+} 
+
+
+
+
+.welcom{
+    max-width: 1440px;
+    height: 519px;
+}
 .conteiner1 {
     max-width: 1220px;
     height: 407px;
-    margin: 0 auto;
     display: flex;
+    padding-top: 62px;
+    padding-left: 109px;
+    padding-bottom: 62px;
+    padding-right: 109px;
 }
+
 .welcom1{
     width: 549px;
     height: 340px;
-    margin: 0 auto;
-    display:inline-block;
-}
+    margin-left: 225px;
+    justify-content: end;
+    }
 
+.welcom_content{
+width: 549px;
+height: 101px;
+}    
 .wel1{
-position: absolute;
+padding-top: 23px;
+padding-left: 4px;
+
 width: 525.44px;
 height: 105px;
 left: 782px;
@@ -80,14 +98,16 @@ line-height: 35px;
 color: #636060;
 }
 .welcome_button{
-    
-position: absolute;
+padding-top: 25px; 
+padding-left: 2px;   
 width: 158px;
-height: 44px;
-left: 782px;
-top: 394px;
+height: 75px;
 
 }
+
+
+
+
 .conteiner2 {
     max-width: 1220px;
     height: 479px;
@@ -97,24 +117,17 @@ top: 394px;
 .conteiner3 {
     width: 605px;
     height: 350px;
+    margin-top: 111px;
        }
 #cont3 {
-width: 605px;
-height: 208px;
-left: 109px;
-top: 303px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-
-color: #636060;
+margin-top: 40px;
        }
 .houseplant11{
 margin-left: 153px;
+margin-top: 85px;
 }
+
+
 .welcom{
     margin: 62px, 109px; 
 }
@@ -144,9 +157,13 @@ font-size: 20px;
 
 color: #E06733;
 }
+.about{
+    width: 1440px;
+    height: 666px;   
+}
 .about_content{
-left: 109px;
-top: 161px;
+    width: 463px;
+    height: 102px;  
 
 font-family: 'Inika';
 font-style: normal;
@@ -223,25 +240,34 @@ color: #636060;
 }
 .prices1{
 width: 332px;
-height: 391px;
+height: 420px;
 margin-left: 109px;
 margin-top: 40px;
 }
 .prices2{
     width: 452px;
-    height: 391px;
+    height: 420px;
     margin-right: 109px;
     margin-top: 40px;
+    justify-content: flex-end;
+ 
     }
+
 h4{
     font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
-line-height: 48px;
+font-size: 20px;
+line-height: 20px;
 
-color: #000000;
+color: #E06733;
+
 }
+.link{
+    padding-top: 52px;
+    display: flex;
+    justify-content: flex-end;
+  }
 #gar{
     color: green;
 }
@@ -250,4 +276,18 @@ color: #000000;
 }
 .contacts{
     background-color: #F5F5F5;
+}
+
+li{
+    list-style-type: none;
+}
+ul{
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.footer1{
+    display: inline-flex;
 }
