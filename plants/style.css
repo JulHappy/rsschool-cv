@@ -4,6 +4,7 @@ html{
 body{
     font-size: 1.6rem;
     width: 1440px;
+    margin: auto; 
 }
 h1 {
     font-family: 'Inter';
@@ -15,13 +16,14 @@ h1 {
     color: #717171;
 }
 header {
-    max-width: 1440px;
+    width: 1440px;
     height: 134px;
     background-color: #F5F5F5;
+    background-size: auto ;
                }
 
 .conteiner {
-    max-width: 1229px;
+    width: 1229px;
     height: 50px;
     margin: 0 auto;
     display: flex;
@@ -229,6 +231,7 @@ flex-direction: column;
 }
 .services{
     background-color: #F5F5F5;
+    
 }
 .services_content {
     width: 306px;
@@ -266,6 +269,9 @@ flex-direction: column;
     height: 450px;
     justify-content: center;
 }
+.tool2{
+    height: 350px;
+}
 .col2{
     box-sizing: border-box;
 
@@ -289,7 +295,7 @@ line-height: 20px;
 text-align: center;
 color: #E06733;
 
-margin-top: 5px;
+margin-top: 8px;
 margin-bottom: 0;
 
 }
@@ -445,6 +451,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color:#000000;
 }
 
 
