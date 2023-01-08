@@ -1,5 +1,7 @@
 html{
    font-size: 10px;
+   scroll-behavior: smooth;
+   
 }
 body{
     font-size: 1.6rem;
@@ -148,6 +150,10 @@ button{
     padding: 13px , 16px; 
     border-radius: 10px;
     }
+button:hover{
+    background-color: #E06733;
+    color: #F5F5F5;
+}
 .services_button{
     margin-top: 60px ;
     margin-left: 144px;
@@ -371,9 +377,7 @@ height: 103px;
     padding-bottom: 25px;
     
 }
-#colwhit{
-    background-color: white;
-}
+
 .link{
     width: 188px;
     height: 50px;
